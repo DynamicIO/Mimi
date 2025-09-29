@@ -112,6 +112,34 @@ window.addEventListener('resize', () => {
     confettiCanvas.height = window.innerHeight;
 });
 
+// Preload all gallery images in the background for faster loading
+const galleryImages = [
+    'Photos-221-001/FullSizeRender.jpg',
+    'Photos-221-001/IMG_3934.JPG',
+    'Photos-221-001/IMG_4265.jpg',
+    'Photos-221-001/IMG_4272.JPG',
+    'Photos-221-001/IMG_4426.JPG',
+    'Photos-221-001/IMG_4440.JPG',
+    'Photos-221-001/IMG_4458.JPG',
+    'Photos-221-001/IMG_4659.JPG',
+    'Photos-221-001/IMG_4671.JPG',
+    'Photos-221-001/IMG_4685.JPG',
+    'Photos-221-001/IMG_4691.JPG',
+    'Photos-221-001/IMG_4791.JPG',
+    'Photos-221-001/IMG_4812.JPG',
+    'Photos-221-001/IMG_4827.JPG',
+    'Photos-221-001/IMG_4834.JPG',
+    'Photos-221-001/IMG_4890.JPG'
+];
+
+// Start preloading images after page loads
+window.addEventListener('load', () => {
+    galleryImages.forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+});
+
 // Funny messages when user clicks "No"
 const funnyMessages = [
     "Come on, you know you want to! 😊",
