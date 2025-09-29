@@ -121,15 +121,13 @@ const galleryImages = [
     'Photos-221-001/IMG_4426.JPG',
     'Photos-221-001/IMG_4440.JPG',
     'Photos-221-001/IMG_4458.JPG',
-    'Photos-221-001/IMG_4659.JPG',
     'Photos-221-001/IMG_4671.JPG',
     'Photos-221-001/IMG_4685.JPG',
     'Photos-221-001/IMG_4691.JPG',
-    'Photos-221-001/IMG_4791.JPG',
     'Photos-221-001/IMG_4812.JPG',
     'Photos-221-001/IMG_4827.JPG',
     'Photos-221-001/IMG_4834.JPG',
-    'Photos-221-001/IMG_4890.JPG'
+    'Photos-221-001/IMG_3837.JPG'
 ];
 
 // Start preloading images after page loads
@@ -273,7 +271,6 @@ yesButton.addEventListener('click', () => {
     
     // Update final message in gallery
     finalMessageText.textContent = "Thank you for giving us another chance ❤️";
-    backToQuestionBtnBottom.style.display = 'none';
     
     // Create confetti and party emojis
     createConfetti();
@@ -355,19 +352,17 @@ galleryBtnMain.addEventListener('click', () => {
 
 // Back to question button handlers
 backToQuestionBtn.addEventListener('click', () => {
-    if (!hasAnswered) {
-        gallerySection.classList.add('hidden');
-        mainSection.classList.remove('hidden');
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    gallerySection.classList.add('hidden');
+    successSection.classList.add('hidden');
+    mainSection.classList.remove('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 backToQuestionBtnBottom.addEventListener('click', () => {
-    if (!hasAnswered) {
-        gallerySection.classList.add('hidden');
-        mainSection.classList.remove('hidden');
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    gallerySection.classList.add('hidden');
+    successSection.classList.add('hidden');
+    mainSection.classList.remove('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 // Add smooth scroll behavior
