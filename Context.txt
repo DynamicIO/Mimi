@@ -1,0 +1,5 @@
+I want you to build an amazing website named "ILoveYouMimi" 
+The website should have this image as its background: C:\Users\basse\OneDrive\Desktop\Mimi2\Photos-221-001\IMG_4265.jpg
+The website should have a big "Forget this bs please" with a yes and no button. if user clicks yes then confitti and party emojis pop up, if user clicks no then website makes them try again in funny way
+the website should have a gallaery section with these images: C:\Users\basse\OneDrive\Desktop\Mimi2\Photos-221-001
+This is a website is meant to make someones girlfriend get back to them, so make nesecary additions to the site. 

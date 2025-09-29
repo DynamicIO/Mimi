@@ -1,0 +1,10 @@
+# robots.txt for I Love You Mimi website
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://iloveyoumimi.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>I Love You Mimi ❤️ | Love Declaration Website</title>
+    <meta name="title" content="I Love You Mimi ❤️ | Love Declaration Website">
+    <meta name="description" content="A heartfelt love declaration website dedicated to Mimi. Featuring beautiful memories, romantic messages, and a special question that needs answering. I cut off all girls for you!">
+    <meta name="keywords" content="love, relationship, romantic website, love declaration, I love you, Mimi, memories, romance, heartfelt message">
+    <meta name="author" content="Your Love">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://iloveyoumimi.com/">
+    <meta property="og:title" content="I Love You Mimi ❤️ | Love Declaration Website">
+    <meta property="og:description" content="A heartfelt love declaration website dedicated to Mimi. Featuring beautiful memories, romantic messages, and a special question that needs answering.">
+    <meta property="og:image" content="Photos-221-001/IMG_4265.jpg">
+    <meta property="og:image:alt" content="Beautiful memories with Mimi">
+    <meta property="og:site_name" content="I Love You Mimi">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://iloveyoumimi.com/">
+    <meta property="twitter:title" content="I Love You Mimi ❤️ | Love Declaration Website">
+    <meta property="twitter:description" content="A heartfelt love declaration website dedicated to Mimi. Featuring beautiful memories, romantic messages, and a special question that needs answering.">
+    <meta property="twitter:image" content="Photos-221-001/IMG_4265.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://iloveyoumimi.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ff1744">
+    <meta name="msapplication-TileColor" content="#ff1744">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "I Love You Mimi",
+      "url": "https://iloveyoumimi.com/",
+      "description": "A heartfelt love declaration website dedicated to Mimi with beautiful memories and romantic messages",
+      "author": {
+        "@type": "Person",
+        "name": "Your Love"
+      },
+      "inLanguage": "en-US"
+    }
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="backgroundMusic" autoplay loop preload="auto">
+        <source src="0929 (1).MP3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Music Start Script (runs immediately) -->
+    <script>
+        const music = document.getElementById('backgroundMusic');
+        music.volume = 0.7;
+        // Try to play as early as possible
+        music.play().catch(e => console.log('Autoplay blocked, will retry'));
+    </script>
+    
+    <div class="background-overlay" role="presentation"></div>
+    
+    <!-- Main Question Section -->
+    <main id="mainSection" class="main-section">
+        <article class="content-container">
+            <h1 class="main-title">I Love You Mimi ❤️</h1>
+            <h2 class="question">I cut off all girls for you! 🥺</h2>
+            <p class="subtitle">I miss you so much...</p>
+            <div class="button-container">
+                <button id="yesButton" class="btn yes-btn">Yes! ❤️</button>
+                <button id="noButton" class="btn no-btn">No</button>
+            </div>
+            <p id="tryAgainText" class="try-again-text" role="alert" aria-live="polite"></p>
+            <button id="galleryBtnMain" class="btn gallery-btn-main" aria-label="View photo gallery of our memories together">See Our Beautiful Memories Together 📸</button>
+        </article>
+    </main>
+
+    <!-- Success Section (Hidden initially) -->
+    <section id="successSection" class="success-section hidden" aria-hidden="true">
+        <article class="success-content">
+            <h1 class="success-title">I LOVE YOU SO MUCH MIMI! 🎉</h1>
+            <p class="success-message">You've made me the happiest person alive! ❤️</p>
+            <p class="success-submessage">I promise to be better for you every single day 💕</p>
+            <button id="seeGalleryBtn" class="btn gallery-btn" aria-label="View photo gallery of our memories together">See Our Beautiful Memories 📸</button>
+        </article>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallerySection" class="gallery-section hidden" aria-hidden="true">
+        <header class="gallery-header">
+            <h2>Our Beautiful Memories Together 💕</h2>
+            <p>Every moment with you is precious to me</p>
+            <button id="backToQuestionBtn" class="btn back-btn" aria-label="Return to main question">Back to the Question 💭</button>
+        </header>
+        <div class="gallery-grid" role="list" aria-label="Photo gallery of our memories">
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/FullSizeRender.jpg" alt="Beautiful memory with Mimi - romantic moment together" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_3934.JPG" alt="Special moment with Mimi - cherished memory" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4265.jpg" alt="Precious memory with Mimi - unforgettable time together" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4272.JPG" alt="Happy moment with Mimi - our love story" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4426.JPG" alt="Memorable day with Mimi - together forever" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4440.JPG" alt="Sweet moment with Mimi - relationship memories" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4458.JPG" alt="Beautiful time with Mimi - love and romance" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4659.JPG" alt="Cherished memory with Mimi - our journey together" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4671.JPG" alt="Special day with Mimi - precious moments" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4685.JPG" alt="Romantic moment with Mimi - unforgettable love" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4691.JPG" alt="Happy memory with Mimi - our love story continues" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4791.JPG" alt="Beautiful day with Mimi - together in love" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4812.JPG" alt="Cherished time with Mimi - romantic memories" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4827.JPG" alt="Sweet memory with Mimi - our relationship" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4834.JPG" alt="Precious moment with Mimi - love forever" loading="lazy">
+            </div>
+            <div class="gallery-item" role="listitem">
+                <img src="Photos-221-001/IMG_4890.JPG" alt="Special memory with Mimi - our beautiful journey" loading="lazy">
+            </div>
+        </div>
+        <footer class="final-message">
+            <h3>I love you more than words can say, Mimi 💖</h3>
+            <p id="finalMessageText">So... what do you say? 💕</p>
+            <button id="backToQuestionBtnBottom" class="btn back-btn" aria-label="Return to answer the question">Answer the Question ❤️</button>
+        </footer>
+    </section>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
